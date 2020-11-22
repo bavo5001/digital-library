@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-card {
+  margin-top: 103px;
+  width: 940px;
+  height: 330px;
+  padding-left: 60px;
+  border-radius: 15px;
+  background-color: white;
+
+  & h3 {
+    color: #D0021B;
+  }
+
+  & h1 {
+    font-weight: 900;
+    font-size: 48px;
+    font-family: Heavy, sans-serif;
+  }
+
+  & button {
+    text-transform: uppercase;
+    background-color: #ffd9d9;
+    color: #D0021B;
+    border-width: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  .left-card {
+    width: 460px;
+    height: 340px;
+    background-color: #0E1E31;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    justify-content: center;
+    align-items: flex-start;
+    & h4 {
+      color: #50E3C2;
+    }
+    & p {
+      color: white;
+    }
+    & button {
+      color: #50E3C2;
+      text-transform: uppercase;
+      background-color: #ffd9d9;
+      border-width: 0;
+      padding: 5px 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  .right-card {
+    margin-left: 20px;
+    width: 460px;
+    height: 340px;
+    background-color: white;
+    border-radius: 15px;
+    & h4 {
+      color: #D0021B;
+    }
+  }
+}

@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@font-face {
+  font-family: myFirstFont;
+  src: url(assets/SFProDisplay.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Heavy;
+  rc: url(assets/SFProDisplay-Heavy.ttf);
+  font-weight: bold;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F4F5F7;
+  font-family: myFirstFont, sans-serif;
+}

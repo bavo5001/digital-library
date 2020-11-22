@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#header {
+  height: 61px;
+  width: 1270px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  .logo {
+    font-size: 48px;
+    font-weight: bold;
+    & sub {
+      color: red;
+    }
+    &-text {
+      text-transform: uppercase;
+
+    }
+  }
+
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+  & li {
+    padding-left: 30px;
+  }
+}
